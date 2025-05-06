@@ -70,7 +70,7 @@ def negative_assert_no_firstname(user_body):
 
     # Prueba 1. Creación de un nuevo usuario o usuaria
 def test_create_user_1_letter_in_first_name_get_success_response():
-    positive_assert("a")
+    positive_assert(data.one_letter)
 
     # Prueba 2
 def test_create_user_511_letter_in_first_name_get_success_response():

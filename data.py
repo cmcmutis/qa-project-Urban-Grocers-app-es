@@ -37,6 +37,8 @@ kit_body = { }
 
 kit_body = {"name": 123}
 
+one_letter= "a"
+
 
 
 
